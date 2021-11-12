@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;600&family=Open+Sans:wght@300;400;500;600&family=Public+Sans:wght@700;800&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+}
+.public_sans {
+    font-family: 'Public Sans', sans-serif;
+}
+.hero_container {
+    background: url('./images/hero-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+.hero_container2 {
+    background: url('./images/hero.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100vw;
+}
+.nav-link, .nav-link:hover {
+    color: #fff;
+    font-weight: bold;
+}
+.hero_text {
+    font-size: 72px;
+}
+.hero_text_container {
+    position: relative;
+    top: 40%;
+}
+.label_container {
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+}
+.label_container_text {
+    font-size: 18px;
+}
+.logo {
+    width: 240px;
+}
+.footer_text_summary {
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer_text_description {
+    font-size: 18px;
+}
+.footer {
+background-color: rgb(243, 241, 241);
+}
+.footer_text_connect {
+font-size: 16px;
+}
+.about_subheading {
+    font-size: 24px;
+    font-weight: bold;
+}
+.about_us_text {
+    font-size: 18px;
+}
+.label_program_container {
+    border: 2px solid rgb(36, 35, 35);
+    width: 30% !important;
+}
